@@ -29,7 +29,7 @@ app.use(cors());
 app.use(express.json());
 
 // Подключение к MongoDB
-mongoose.connect('mongodb://mongo:27017/mood_db', {
+mongoose.connect('mongodb://localhost:27017/mood_db', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
